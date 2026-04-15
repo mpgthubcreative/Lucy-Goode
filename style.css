@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./Assets/futura-pt/FuturaCyrillicBook.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./Assets/futura-pt/FuturaCyrillicMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./Assets/futura-pt/FuturaCyrillicDemi.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./Assets/futura-pt/FuturaCyrillicHeavy.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: #f5ede8;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── DESKTOP NAV ─────────────────────────────── */
+.nav-desktop {
+    background-color: #f5ede8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    padding: 1.6rem 0;
+}
+
+.nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.2em;
+    color: #1a1a1a;
+}
+
+.logo-subtitle {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    letter-spacing: 0.2em;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3.6rem;
+    align-items: center;
+}
+
+.nav-links a {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    letter-spacing: 0.12em;
+    color: #1a1a1a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #888;
+}
+
+/* ── MOBILE HEADER ───────────────────────────── */
+.header-mobile {
+    display: none;
+}
+
+/* ── HERO SECTION ────────────────────────────── */
+.hero {
+    background-color: #f5ede8;
+    padding: 6rem 0 8rem;
+}
+
+.hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-heading {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+}
+
+.hero-desc {
+    font-size: 1.5rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.4rem;
+    max-width: 46rem;
+}
+
+.hero-specialties {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    max-width: 46rem;
+}
+
+.btn-inquiry {
+    display: inline-block;
+    padding: 1.3rem 3rem;
+    background-color: #3a3028;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+}
+
+/* ── MEET LUCY SECTION ───────────────────────── */
+.meet-lucy {
+    background-color: #ffffff;
+    padding: 7rem 0;
+}
+
+.meet-lucy-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 6rem;
+    align-items: start;
+}
+
+.meet-lucy-image-col {
+    display: flex;
+    justify-content: center;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 360px;
+    display: block;
+}
+
+.meet-lucy-heading {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 1.2rem;
+}
+
+.meet-lucy-quote {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 2.4rem;
+    line-height: 1.6;
+}
+
+.meet-lucy-subheading {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1.2rem;
+}
+
+.meet-lucy-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.meet-lucy-list li {
+    font-size: 1.4rem;
+    color: #333;
+    padding-left: 2.2rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.meet-lucy-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.meet-lucy-para {
+    font-size: 1.4rem;
+    color: #555;
+    line-height: 1.75;
+}

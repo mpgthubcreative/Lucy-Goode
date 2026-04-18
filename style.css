@@ -355,7 +355,7 @@ body {
 /* ── SERVICES SECTION ───────────────────────── */
 .services {
     background-color: #ffffff;
-    padding: 4rem 2.4rem 3.6rem;
+    padding: 4rem 3rem 2.4rem 3rem;
 }
 
 .services-inner {
@@ -433,6 +433,7 @@ body {
 .what-to-expect {
     background-color: #ffffff;
     padding: 0;
+    padding: 0rem 4rem 0rem 4rem;
 }
 
 .wte-inner {
@@ -442,7 +443,6 @@ body {
 
 .wte-card {
     background-color: #ffffff;
-    padding: 3.6rem 2.4rem;
     display: flex;
     flex-direction: column;
 }
@@ -464,7 +464,7 @@ body {
 }
 
 .wte-intro {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
     line-height: 1.65;
     color: #1a1a1a;
@@ -503,7 +503,7 @@ body {
 .wte-btn {
     display: inline-block;
     width: auto;
-    align-self: flex-start;
+    align-self: stretch;
     padding: 1.4rem 2.8rem;
     font-size: 1.5rem;
     border-radius: 6px;
@@ -529,7 +529,7 @@ body {
 /* -- CLIENT EXPERIENCES SECTION --------------- */
 .reviews {
     background-color: #ffffff;
-    padding: 3.6rem 2.4rem 4.8rem;
+    padding: 3.6rem 6rem 3.6rem 6rem;
 }
 
 .reviews-inner {
@@ -588,7 +588,7 @@ body {
 /* -- CONTACT / FORM SECTION ------------------- */
 .contact {
     background-color: #FBF5F5;
-    padding: 2.4rem 2rem 4rem;
+    padding: 3rem 6rem 3rem 6rem;
 }
 
 .contact-inner {
@@ -632,6 +632,7 @@ body {
     color: #1a1a1a;
     margin-bottom: 1.2rem;
     text-align: center;
+    line-height: 1.1;
 }
 
 .contact-desc {

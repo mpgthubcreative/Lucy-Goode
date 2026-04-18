@@ -279,7 +279,10 @@
     .wte-btn {
         padding: 0.9rem 2.2rem;
         font-size: 0.95rem;
-    }
+        align-self: flex-start;
+  
+}
+    
 
     .wte-image-col {
         flex: 1;

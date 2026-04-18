@@ -3,9 +3,10 @@
 
 
     .container{
-    width: 76.8rem;
-    margin: 0 auto;
-}
+        width: 768px;
+        margin: 0 auto;
+    }
+
 
 
     /* Show desktop nav, hide mobile header */
@@ -173,5 +174,321 @@
     .meet-lucy-para {
         font-size: .9rem;
         line-height: 1.5;
+    }
+
+    /* Services — 4-column grid */
+    .services {
+        padding: 5rem 3rem;
+    }
+
+    .services-label {
+        font-size: 0.9rem;
+        letter-spacing: 2.5px;
+    }
+
+    .services-heading {
+        font-size: 3.2rem;
+    }
+
+    .services-desc {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        max-width: 60rem;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    .service-image {
+        aspect-ratio: 3 / 4;
+    }
+
+    .service-name {
+        font-size: 1.2rem;
+    }
+
+    .service-sub {
+        font-size: 0.85rem;
+    }
+
+    /* What To Expect — side by side */
+    .what-to-expect {
+        background-color: #F5F0EA;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .wte-inner {
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        width: 768px;
+        margin: 0 auto;
+        padding: 5rem 0 5rem 4rem;
+    }
+
+    .wte-card {
+        flex: 0 0 360px;
+        padding: 3.6rem 3.2rem;
+        justify-content: flex-start;
+        background-color: #C5DDD3;
+        border-radius: 14px;
+        align-self: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .wte-heading {
+        font-size: 3rem;
+    }
+
+    .wte-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .wte-intro {
+        font-size: 0.95rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .wte-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .wte-list li {
+        font-size: 0.95rem;
+    }
+
+    .wte-btn {
+        padding: 0.9rem 2.2rem;
+        font-size: 0.95rem;
+    }
+
+    .wte-image-col {
+        flex: 1;
+        order: 0;
+        overflow: hidden;
+        border-radius: 14px;
+        align-self: stretch;
+        margin: -5rem 0 -5rem 2.4rem;
+    }
+
+    .wte-image-mobile {
+        display: none;
+    }
+
+    .wte-image-desktop {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 14px;
+    }
+
+    /* Client Experiences — 3-column */
+    .reviews {
+        padding: 4rem 0 5rem;
+        background-color: #ffffff;
+    }
+
+    .reviews-inner {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .reviews-heading {
+        font-size: 3.2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .reviews-grid {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 1.6rem;
+    }
+
+    .review-card {
+        flex: 1;
+        border: 1px solid #e0ddd8;
+        border-radius: 8px;
+        padding: 2.2rem 2rem;
+        background-color: #ffffff;
+    }
+
+    .review-stars {
+        width: 9rem;
+        height: auto;
+        margin-bottom: 1.4rem;
+    }
+
+    .review-text {
+        font-size: 0.9rem;
+        font-style: italic;
+        line-height: 1.7;
+        margin-bottom: 1.4rem;
+        color: #555;
+    }
+
+    .review-name {
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    /* Contact / Form — two-column */
+    .contact {
+        padding: 0;
+        background-color: #ffffff;
+    }
+
+    .contact-inner {
+        flex-direction: row;
+        align-items: stretch;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .contact-image-col {
+        display: block;
+        flex: 0 0 300px;
+        overflow: hidden;
+    }
+
+    .contact-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        display: block;
+        border-radius: 0;
+    }
+
+    .contact-form-col {
+        flex: 1;
+        padding: 3.2rem 3.2rem 3.2rem 3rem;
+    }
+
+    .contact-label {
+        text-align: left;
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        margin-bottom: 0.6rem;
+    }
+
+    .contact-heading {
+        text-align: left;
+        font-size: 2.8rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.15;
+    }
+
+    .contact-desc {
+        text-align: left;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        line-height: 1.55;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 0;
+        align-items: stretch;
+    }
+
+    .form-row-half {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .form-row-half input {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+        font-size: 0.9rem;
+        padding: 0.85rem 1.2rem;
+        border: 1px solid #d0d0d0;
+        border-radius: 6px;
+    }
+
+    .contact-form select option:first-child {
+        color: #aaa;
+    }
+
+    .contact-form textarea {
+        min-height: 7rem;
+        resize: vertical;
+    }
+
+    .contact-btn {
+        width: auto !important;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        display: block;
+        margin: 1.4rem auto 0;
+        align-self: center;
+        border: none;
+        border-radius: 6px;
+    }
+
+    .contact-note {
+        text-align: center;
+        font-size: 0.75rem;
+        margin-top: 1.2rem;
+        color: #888;
+        line-height: 1.5;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 3rem 0;
+    }
+
+    .footer-inner {
+        width: 768px;
+        margin: 0 auto;
+        gap: 0.8rem;
+    }
+
+    .footer-name {
+        font-size: 2rem;
+    }
+
+    .footer-title {
+        font-size: 0.75rem;
+    }
+
+    .footer-address {
+        font-size: 1rem;
+    }
+
+    .footer-directions {
+        font-size: 0.9rem;
+    }
+
+    .footer-contact {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .footer-link {
+        font-size: 0.95rem;
+    }
+
+    .footer-icon {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
